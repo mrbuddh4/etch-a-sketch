@@ -1,0 +1,1 @@
+Set out to create an etch-a-sketch type page to the specifications of the assignment. Most things work as intended and I added a couple features of my own. The CSS styling was almost as challenging as the javascript haha!
