@@ -83,7 +83,7 @@ function clearGrid() {
 function eraseCell() {
 	for (let i = 0; i < gridCell.length; i++) {
 		gridCell[i].addEventListener('mouseenter', function() {
-			gridCell[i].style.backgroundColor = 'white';
+			gridCell[i].style.backgroundColor = null;
 		})
 	}
 }
