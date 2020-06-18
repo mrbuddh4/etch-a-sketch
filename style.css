@@ -1,0 +1,49 @@
+.image {
+    content: url(etch-a-sketch.jpg);
+}
+
+.image {
+    height: 1000px;
+    position: absolute;
+    margin: -400px 0 0 -600px;
+    left: 50%;
+    top: 50%;
+    z-index: -1;  
+}
+
+#button-container {
+    position: absolute;
+    margin: -375px 0 0 -200px;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+}
+
+.button {
+    background: linear-gradient(#bf7031, #e7ad50);
+    border-radius: 15%;
+    box-shadow: 1px 1px black;
+}
+
+#grid-container {
+    text-align: center;
+    position: absolute;
+    margin: -215px 0 0 -405px;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+
+#grid {
+    display: grid;
+    height: 590px;
+    width: 825px;
+    background: linear-gradient(#929697, #cdced0);
+    z-index: inherit;
+}
+
+.grid-cell {
+    border : 0px solid #000000;
+    /background-color: #9ca0a1;
+}
+
